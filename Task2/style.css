@@ -1,0 +1,21 @@
+h1 {
+  color: #006666;
+  background-color: aqua;
+  text-align: center;
+}
+
+p {
+  background-color: rgb(222, 184, 135);
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+
+h2 {
+  color: white;
+  background-image: url("qizilgul.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 200px;
+}

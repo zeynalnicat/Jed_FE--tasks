@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(46, 194, 46);
+}
+
+
+div{
+    margin:90px auto;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Quantico', sans-serif;
+    font-size: 60px;
+    font-style: italic;
+}
+
+
+p{
+    font-size: 30px;
+}
+
+
+

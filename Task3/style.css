@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+}
+nav{
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 70px;
+    padding:20px;
+    text-align: center;
+    
+    
+
+}
+
+p.nav{
+    display: inline-block;
+    margin:0px 20px;
+}
+a{
+
+    font-size: 20px;
+   
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(32, 132, 112);
+}
+
+img{
+    width: 100%;
+    height: 600px;
+        
+    
+}
+
+div{
+  text-align: center;  
+  margin: 20px 70px;  
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+button{
+    color:white;
+    background-color: rgb(32, 132, 112);
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+p#copy{
+    text-align: right;
+    margin:30px
+}
