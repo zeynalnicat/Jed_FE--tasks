@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+   width: 100vw;
+}
+
+
+h3{
+        display: inline-block;
+    color:antiquewhite;
+    opacity: 0.5;
+    
+
+}
+header{
+   
+    padding:10px 30px ;
+}
+
+.nav{
+    width: 100vw;
+    height: 40vh;
+    
+    background-color: rgb(71, 36, 101);
+    
+}
+
+nav{
+    display: inline-block;
+    margin-left:70vw;
+}
+
+
+
+a{
+   
+  
+ 
+    font-family:  'Oswald', sans-serif;;
+    padding:10px;
+   
+    color:antiquewhite;
+   opacity: 0.5;
+    text-decoration: none;
+
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color:aliceblue;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+p{ 
+    font-family: 'Noto Sans', sans-serif;
+    color:aliceblue;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.main{
+    height: 10vh ;
+    width: 70vw;
+    margin: 5vh 15vw; 
+}
+p#lorem{
+    padding:10px ;
+    text-align: center;
+    color:black;
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+
+.imgbrdr{
+    height: 40vh;
+    width: 100vw;
+    
+
+}
+
+.one , .two , .three , .four  {
+    
+    display: inline-block;
+    height: 20vh;
+    width: 24.5vw;
+    border: 1px solid transparent;
+    
+}
+
+.five , .six , .seven , .eight{
+    display: inline-block;
+    height: 20vh;
+    width: 24.5vw;
+    border: 1px solid transparent;
+}
+.one{
+    background-color: rgb(203, 52, 52);
+    
+}
+.two{
+    background-color: rgb(193, 171, 137);
+}
+.three{
+    background-color: rgb(10, 36, 38);
+
+}
+.four{
+    background-color: rgb(145, 145, 145);
+}
+.five{
+    background-color: aqua;
+}
+.six{
+    background-color: rgb(152, 108, 54);
+}
+.seven{
+    background-color: black;
+}
+.eight{
+    background-color: rgb(95, 203, 95);
+}
+
+
+.hlp{
+    padding:5vh 0;
+    height: 30vh;
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    
+
+    
+}
+
+
+.hlp p{
+    color: black;
+}
+
+button{
+    color:white;
+    background-color: rgb(59, 139, 149);
+    border-color: transparent;
+    width: 100px;
+    height: 40px;
+}
+footer{
+    margin:40px 0;
+}
+
+p#foot{
+
+    color:black;
+}

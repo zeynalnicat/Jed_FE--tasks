@@ -56,3 +56,8 @@ p#copy{
     text-align: right;
     margin:30px
 }
+
+span{
+   display: block;
+   margin: 10px auto;
+}
