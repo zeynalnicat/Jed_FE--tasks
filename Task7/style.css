@@ -86,7 +86,7 @@ p#lorem{
     
 
 }
-
+/* A: eyni dizaynlar varsa, niye ayri class-lar */
 .one , .two , .three , .four  {
     
     display: inline-block;
@@ -96,6 +96,7 @@ p#lorem{
     
 }
 
+/* A: eyni dizaynlar varsa, niye ayri class-lar */
 .five , .six , .seven , .eight{
     display: inline-block;
     height: 20vh;
