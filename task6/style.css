@@ -62,6 +62,7 @@ p{
     height: 10vh;
     background-color: gray;
     bottom:0;
+    /* A: niye pos absolute? */
     position: absolute;
     width: 100%;
 }
