@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.image-container {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.image-container img {
+  position: absolute;
+}
+
+.image-container::after {
+  content: url(https://picsum.photos/id/71/400);
+  position: absolute;
+  left: 700px;
+}
+.fade {
+  position: absolute;
+  left: 700px;
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 3));
+  z-index: 3;
+}
