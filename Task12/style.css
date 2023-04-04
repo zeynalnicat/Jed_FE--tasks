@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.signup-container {
+  height: 100vh;
+  background-color: #b72828;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 25px;
+}
+.user_name {
+  position: relative;
+  display: inline-block;
+}
+.iconuser {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.email {
+  position: relative;
+}
+
+.iconemail {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.password {
+  position: relative;
+}
+.iconpassword {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.signup h1 {
+  font-family: "Noto Sans", sans-serif;
+
+  color: #b72828;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+input,
+button {
+  width: 300px;
+  border-radius: 5px;
+  height: 50px;
+}
+input {
+  padding: 10px;
+}
+input:focus {
+  outline: none; /* remove the default focus outline */
+  border: 2px solid #b72828; /* add a blue border when focused */
+  background-color: #f2f2f2; /* add a light gray background when focused */
+}
+button {
+  background-color: #b72828;
+  color: white;
+  border-color: transparent;
+  font-family: "Oswald", sans-serif;
+}
